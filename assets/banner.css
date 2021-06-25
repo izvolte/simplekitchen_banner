@@ -1,0 +1,154 @@
+.banner-simple-kitchen {
+  font-family: "AvenirNextCyr-Bold", sans-serif;
+  background: linear-gradient(90.12deg, #B1E4FF 0.88%, #BCFFA5 100%);
+  height: 8.02vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  overflow: hidden; }
+  @media only screen and (max-width: 770px) {
+    .banner-simple-kitchen {
+      height: 25vw;
+      background: linear-gradient(81.93deg, #B1E4FF 6.26%, #F2FFA5 52.33%, #BCFFA5 93.84%); } }
+  .banner-simple-kitchen__close {
+    position: absolute;
+    right: 0.89vw;
+    cursor: pointer;
+    width: 1.15vw;
+    height: 1.15vw;
+    display: flex;
+    z-index: 2; }
+    @media only screen and (max-width: 770px) {
+      .banner-simple-kitchen__close {
+        top: 2.19vw;
+        right: 2.19vw;
+        width: 4.06vw;
+        height: 4.06vw; }
+        .banner-simple-kitchen__close:after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 150%;
+          height: 150%; } }
+    .banner-simple-kitchen__close svg {
+      width: 100%;
+      height: 100%; }
+  .banner-simple-kitchen__container {
+    display: flex;
+    align-items: center; }
+  .banner-simple-kitchen__title-svg {
+    width: 74vw;
+    height: auto; }
+  .banner-simple-kitchen__title {
+    color: #E58171;
+    font-size: 1.9vw;
+    margin-right: 1.25vw;
+    text-transform: uppercase; }
+    @media only screen and (max-width: 770px) {
+      .banner-simple-kitchen__title {
+        margin-right: 3.44vw;
+        width: 53.75vw;
+        font-size: 4vw; } }
+    .banner-simple-kitchen__title_desc {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; }
+      .banner-simple-kitchen__title_desc .decor-banner-title {
+        position: absolute;
+        left: -0.8vw;
+        width: 6.8vw;
+        height: 4.44vw;
+        transform: translateY(-4%); }
+      @media only screen and (max-width: 770px) {
+        .banner-simple-kitchen__title_desc {
+          display: none; } }
+    .banner-simple-kitchen__title_mob {
+      display: none; }
+      @media only screen and (max-width: 770px) {
+        .banner-simple-kitchen__title_mob {
+          display: block;
+          text-align: center; } }
+  .banner-simple-kitchen__arrow {
+    margin-right: 1.25vw; }
+    @media only screen and (max-width: 770px) {
+      .banner-simple-kitchen__arrow {
+        position: absolute;
+        bottom: 17.19vw;
+        left: 50.63vw; } }
+    .banner-simple-kitchen__arrow svg {
+      width: 100%;
+      height: 100%; }
+    .banner-simple-kitchen__arrow_desc {
+      width: 3.49vw;
+      height: 1.67vw;
+      display: flex; }
+      @media only screen and (max-width: 770px) {
+        .banner-simple-kitchen__arrow_desc {
+          display: none; } }
+    .banner-simple-kitchen__arrow_mob {
+      display: none; }
+      @media only screen and (max-width: 770px) {
+        .banner-simple-kitchen__arrow_mob {
+          display: flex;
+          height: 5.69vw;
+          width: 17.75vw; } }
+  .banner-simple-kitchen__order {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.2vw;
+    color: #E58171; }
+    @media only screen and (max-width: 770px) {
+      .banner-simple-kitchen__order {
+        font-size: 5vw; } }
+  .banner-simple-kitchen__order-title {
+    margin: 0 0.57vw;
+    text-shadow: -0.1vw 0 #FFFFFF, 0 0.1vw #FFFFFF, 0.1vw 0 #FFFFFF, 0 -0.1vw #FFFFFF; }
+    @media only screen and (max-width: 770px) {
+      .banner-simple-kitchen__order-title {
+        margin: 0 1.25vw; } }
+  .banner-simple-kitchen__order-decor {
+    width: 1.82vw;
+    height: 3.33vw;
+    display: flex; }
+    @media only screen and (max-width: 770px) {
+      .banner-simple-kitchen__order-decor {
+        width: 4.38vw;
+        height: 8.13vw; } }
+    .banner-simple-kitchen__order-decor svg {
+      width: 100%;
+      height: 100%; }
+    .banner-simple-kitchen__order-decor_one {
+      animation: decor-banner 1s infinite linear; }
+    .banner-simple-kitchen__order-decor_two {
+      transform: scaleY(-1) scaleX(-1);
+      animation: decor-banner2 1s infinite linear; }
+
+@keyframes decor-banner {
+  from {
+    transform: scaleY(1); }
+  49% {
+    transform: scaleY(1); }
+  50% {
+    transform: scaleY(-1); }
+  to {
+    transform: scaleY(-1); } }
+@keyframes decor-banner2 {
+  from {
+    transform: scaleY(-1) scaleX(-1); }
+  49% {
+    transform: scaleY(-1) scaleX(-1); }
+  50% {
+    transform: scaleY(1) scaleX(-1); }
+  to {
+    transform: scaleY(1) scaleX(-1); } }
+
+/*# sourceMappingURL=banner.css.map */
